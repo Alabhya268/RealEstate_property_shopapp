@@ -1,15 +1,20 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from .models import Listing
+from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 
 
 def index(request):
-    listings = Listing.objects.all()
-    context = {'listing': listings}
+    listings = Listing.objects.order_by('-list_date').filter(is_published = True)
+    paginator = Paginator(listings, 6)
+    page = request.GET.get('page')
+    paged_listings = paginator.get_page(page)
+
+    context = {'listings': paged_listings}
     return render(request, 'listings/listings.html', context)
 
 
-def listing(request):
+def listing(request, listing_id):
     return render(request, 'listings/listing.html')
 
 
