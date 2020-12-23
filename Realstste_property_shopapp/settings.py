@@ -77,13 +77,20 @@ WSGI_APPLICATION = 'Realstste_property_shopapp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'btredb',
+#         'USER' : 'postgres',
+#         'PASSWORD' : '010300',
+#         'HOST' : 'localhost',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'btredb',
-        'USER' : 'postgres',
-        'PASSWORD' : '010300',
-        'HOST' : 'localhost',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
 
