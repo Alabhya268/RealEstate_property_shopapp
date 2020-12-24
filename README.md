@@ -1,14 +1,16 @@
 # RealState property shop app
 
-## About 
+## About project:
 
 This is Django Web App for realstate .User can view and search properties and make an inquery to realtor.
 
-![Sample1](https://github.com/Alabhya268/RealState_property_shopapp/tree/master/sample_images/project_sample/sample1.png)
+### Sample Images -
 
-![Sample2](https://github.com/Alabhya268/RealState_property_shopapp/tree/master/sample_images/project_sample/sample2.png)
+![Sample1](https://raw.githubusercontent.com/Alabhya268/RealState_property_shopapp/master/sample_images/project_sample/sample1.png)
 
-## Steps to run locally, do the usual:
+![Sample2](https://raw.githubusercontent.com/Alabhya268/RealState_property_shopapp/master/sample_images/project_sample/sample2.png)
+
+## Steps to run locally :
 
 1. Create a Python virtualenv 
 
