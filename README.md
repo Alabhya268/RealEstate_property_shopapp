@@ -2,7 +2,7 @@
 
 ## About project:
 
-This is Django Web App for Realstate .User can view and search properties and make an inquery to realtor.
+This is Django Web App for Realstate .User can view and search properties and make an inqury to realtor.
 
 ### Sample Images -
 
