@@ -2,7 +2,7 @@
 
 ## About project:
 
-This is Django Web App for realstate .User can view and search properties and make an inquery to realtor.
+This is Django Web App for Realstate .User can view and search properties and make an inquery to realtor.
 
 ### Sample Images -
 
@@ -42,7 +42,7 @@ If you wish to create your own superuser account, Run the following command-
     ```bash
     python manage.py createsuperuser
     ```
-### You can use sample images provided in sample_images folder to add new properties and realtor if you choose.
+### You can use sample images provided in sample_images folder to add new properties and realtor.
 ___
 
 ### If you are having trouble with linting, or getting error like: "No object member in class" then follow these steps :
