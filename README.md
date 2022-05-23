@@ -1,4 +1,4 @@
-# RealState property shop app
+# RealEstate property shop app
 
 ## About project:
 
